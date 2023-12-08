@@ -13,7 +13,7 @@ client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 """ 读取图片 """
 n =0
-while n <=36:
+while n <=26:
     def get_file_content(filePath):
         with open(filePath, 'rb') as fp:
             return fp.read()
